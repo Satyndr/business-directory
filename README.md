@@ -1,8 +1,37 @@
-# Welcome to your Expo app 👋
+# React Native Business Directory App with Clerk
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native FinTech clone using [Clerk](https://go.clerk.com/tQXLCe8) for user authentication with Google.
+Business Owners can List their businesses and products.
+
+Additional features:
+
+- [Expo Router](https://docs.expo.dev/routing/introduction/) file-based navigation and API Routes
+- [Google login](https://clerk.com/docs/custom-flows/email-sms-otp?utm_source=sponsorship&utm_medium=github&utm_campaign=simong&utm_content=rn-fintech) Auth with Clerk
+
+## Screenshots
+
+<div style="display: flex; flex-direction: 'row';">
+<img src="./screenshots/0.jpg" width=20%>
+<img src="./screenshots/1.jpg" width=20%>
+<img src="./screenshots/2.jpg" width=20%>
+<img src="./screenshots/3.jpg" width=20%>
+<img src="./screenshots/4.jpg" width=20%>
+<img src="./screenshots/5.jpg" width=20%>
+<img src="./screenshots/6.jpg" width=20%>
+<img src="./screenshots/7.jpg" width=20%>
+<img src="./screenshots/8.jpg" width=20%>
+<img src="./screenshots/9.jpg" width=20%>
+<img src="./screenshots/10.jpg" width=20%>
+
+</div>
+
 
 ## Get started
+
+Need to add a .env file in root directory for
+```bash
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY="key_of_clerk"
+```
 
 1. Install dependencies
 
@@ -16,35 +45,4 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Install Expo Go App in your phone or run with simulator

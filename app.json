@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.satyndrr.businessdirectory"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5fd64338-71f2-41f4-9400-f074f9634ded"
+      }
     }
   }
 }
